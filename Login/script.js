@@ -1,3 +1,13 @@
+function HideModal()
+{
+  document.getElementById('modal').style.display = "none";
+}
+
+function ShowModal()
+{
+  document.getElementById('modal').style.display = "flex";
+}
+
 function login() {
   var nome = $("#nome").val();
   var senha = $("#senha").val();
@@ -13,6 +23,6 @@ function login() {
 
     window.location.href = "../Loja/loja.html";
   } else {
-    //logica para se o nome e senha forem incorretos
+    ShowModal();
   }
 }
