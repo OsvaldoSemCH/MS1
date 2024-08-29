@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         card.style.marginRight = "10px";
 
         const imagem = document.createElement("img");
-        imagem.src = produto.imagem;
+        imagem.src = "../" + produto.imagem;
         imagem.className = "card-img-top";
 
         const cardBody = document.createElement("div");

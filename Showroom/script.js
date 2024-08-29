@@ -18,7 +18,7 @@ document.addEventListener
                 card.style.float = "left";
 
                 const imagem = document.createElement("img");
-                imagem.src = produto.imagem;
+                imagem.src = "../" + produto.imagem;
                 imagem.style.width = "100%";
                 imagem.style.aspectRatio = 1;
                 imagem.style.objectFit = "contain";

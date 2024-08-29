@@ -2,7 +2,7 @@
   {
     "id": 1,
     "descricao": "Cavaquinho",
-    "imagem": "https://images.tcdn.com.br/img/img_prod/640308/180_cavaquinho_strinberg_cs25_hbs_30861_1_19ee232cfb0fddcd9f1055942f03a034.jpg",
+    "imagem": "Imagens/Cavaquinho.webp",
     "preco": 502.29,
     "quantidade": 11,
     "status": true
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "descricao": "Kazoo",
-    "imagem": "https://m.media-amazon.com/images/I/51Pcus6q-0L._AC_UF894,1000_QL80_.jpg",
+    "imagem": "Imagens/Kazoo.jpg",
     "preco": 180.0,
     "quantidade": 10,
     "status": false
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "descricao": "Gaita",
-    "imagem": "https://m.media-amazon.com/images/I/61iHLaSpPuL._AC_UF894,1000_QL80_.jpg",
+    "imagem": "Imagens/Gaita.jpg",
     "preco": 186.0,
     "quantidade": 8,
     "status": true
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "descricao": "Bateria",
-    "imagem": "https://images.tcdn.com.br/img/img_prod/640308/bateria_d_one_prime_pr20rbs_red_burst_sparkle_28763_1_8f9f8c27ab1524b87ce4d21a58ca71ea.jpg",
+    "imagem": "Imagens/Bateria.webp",
     "preco": 17741.89,
     "quantidade": 0,
     "status": true
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "descricao": "Triangulo",
-    "imagem": "https://images.tcdn.com.br/img/img_prod/1002741/triangulo_percussao_profissional_25_cm_8mm_phx_music_79_com_baqueta_3577_1_ab68452588a7462fa0e34fbf7cb35d01.jpg",
+    "imagem": "Imagens/Triangulo.webp",
     "preco": 46.55,
     "quantidade": 16,
     "status": false
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "descricao": "Violino",
-    "imagem": "https://m.media-amazon.com/images/I/51VVC1IWgdL._AC_UF894,1000_QL80_.jpg",
+    "imagem": "Imagens/Violino.jpg",
     "preco": 479.95,
     "quantidade": 3,
     "status": false
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "descricao": "Teclado",
-    "imagem": "https://cdn.awsli.com.br/82/82881/produto/148049921/838fbe800e.jpg",
+    "imagem": "Imagens/Teclado.webp",
     "preco": 1499.00,
     "quantidade": 6,
     "status": true
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "descricao": "Trompete",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ84BeGYPjfZ6qWwKWY6tpWtNpRa-RlImFYMg&s",
+    "imagem": "Imagens/Trompete.jpg",
     "preco": 2940.00,
     "quantidade": 4,
     "status": false
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "descricao": "Sanfona",
-    "imagem": "https://a-static.mlcdn.com.br/450x450/gaita-acordeon-acm8007n-spb-80-baixos-preto-solido-michael/supersonora/3531815893/3eca13d16a6ffe8bc91bb834a57ca461.jpeg",
+    "imagem": "Imagens/Sanfona.webp",
     "preco": 5590.00,
     "quantidade": 5,
     "status": true
