@@ -13,13 +13,16 @@
 </head>
 
 <body style="font-family: Roboto, sans-serif;">
-  <a href="../Loja/loja.html" class="button">Continuar comprando</a>
-  <div class="Title">
-    <h1>Carrinho</h1>
+  <header class="flex">
+    <h1 class="headerText">Carrinho</h1>
+    <a href="../Loja/loja.html" class="button">Continuar comprando</a>
+  </header>
     <div id="lista"></div>
+    <hr>
     <h3 id="total"></h3>
-    <button onclick="gerarDocumentoWord()">Realizar pedido</button>
-    <p id="pedido">Pedido gerado com sucesso <br><button onclick="HideModal()">Fechar</button></p>
+    <hr>
+    <button onclick="gerarDocumentoWord()" class="button">Realizar pedido</button>
+    <p id="pedido">Pedido gerado com sucesso <br><button class="buttonDel" onclick="HideModal()">Fechar</button></p>
     <script src="script.js"></script>
   </body>
 </html>

@@ -3,7 +3,6 @@ body
     width: 100vw;
     height: auto;
     overflow-x: hidden;
-    padding: 20px;
 }
 #pedido {
   display: none;
@@ -16,47 +15,20 @@ body
   color: #ffff;
   font-size: 1.4rem;
 }
-#produtos-container
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: auto;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-.idPerfil
-{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-
 .card
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    border: solid 1px #c0c0c0;
-    width: 18rem;
-    aspect-ratio: 1.7;
+    justify-content: center;
+    border: solid 7px #c0c0c0;
     padding: 10px;
     margin: 10px;
 }
-.cardBody
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
+
+.buttonDel,
 .button
 {
-    border: solid 1px #0080f0;
-    background-color: #0080f0;
     color: #ffffff;
     font-weight: bold;
     border-radius: 20px;
@@ -66,12 +38,19 @@ body
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#perfil
+.button
 {
-    border: solid 1px #00c0f0;
-    font-size: 16px;
-    border-radius: 7px;
-    padding: 10px;
+    border: solid 1px #0080f0;
+    background-color: #0080f0;
+}
+.buttonDel
+{
+    border: solid 1px #f04040;
+    background-color: #f04040;
+}
+.buttonDel:hover
+{
+    background-color: #f08080;
 }
 .button:hover
 {
@@ -80,17 +59,6 @@ body
 .headerText
 {
     color: #ffffff;
-}
-.cardImage
-{
-    width: 100%;
-    aspect-ratio: 1;
-    object-fit: contain;
-}
-.cardText
-{
-    font-size: 20px;
-    text-align: center;
 }
 header
 {
@@ -104,19 +72,4 @@ header
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
-.Title
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-@media(width <= 900px)
-{
-    .center
-    {
-        justify-content: center;
-        gap: 2vh;
-    }
 }

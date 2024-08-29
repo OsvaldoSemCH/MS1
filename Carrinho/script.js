@@ -29,8 +29,11 @@ $(document).ready(function () {
         .css("margin-left", "10px")
         .click(function () {
           removerItemDoCarrinho(index);
-        });
+        })
+        .addClass("buttonDel");
 
+      removeButton.className = "buttonDel";
+      
       // Adiciona o botão à lista
       listItem.append(removeButton);
 
