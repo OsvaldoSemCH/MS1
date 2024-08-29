@@ -31,6 +31,9 @@ document.addEventListener
                 const cardText = document.createElement("p");
                 cardText.textContent = "Preço: $" + produto.preco.toFixed(2);
 
+                const cardText2 = document.createElement("p");
+                cardText2.textContent = "Quantidade: " + produto.quantidade;
+
                 const circulo = document.createElement("div");
                 if(produto.status)
                 {
@@ -46,6 +49,7 @@ document.addEventListener
 
                 cardBody.appendChild(cardTitle);
                 cardBody.appendChild(cardText);
+                cardBody.appendChild(cardText2);
                 
                 card.appendChild(circulo);
                 card.appendChild(imagem);
