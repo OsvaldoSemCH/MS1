@@ -19,28 +19,25 @@ document.addEventListener("DOMContentLoaded", function () {
       produtos.map((produto, index) => {
         const card = document.createElement("div");
         card.className = "card";
-        card.style.width = "18rem";
-        card.style.marginRight = "10px";
 
         const imagem = document.createElement("img");
         imagem.src = "../" + produto.imagem;
-        imagem.className = "card-img-top";
+        imagem.className = "cardImage";
 
         const cardBody = document.createElement("div");
-        cardBody.className = "card-body";
+        cardBody.className = "cardBody";
 
         const cardTitle = document.createElement("h5");
-        cardTitle.className = "card-title";
+        cardTitle.className = "cardText";
         cardTitle.textContent = produto.descricao;
 
         const cardText = document.createElement("p");
-        cardText.className = "card-text";
+        cardText.className = "cardText";
         cardText.textContent = "Preço: $" + produto.preco.toFixed(2);
 
         const btnAdicionarAoCarrinho = document.createElement("a");
         btnAdicionarAoCarrinho.href = "#";
-        btnAdicionarAoCarrinho.className =
-          "btn btn-primary btn-adicionar-ao-carrinho";
+        btnAdicionarAoCarrinho.className = "btn-adicionar-ao-carrinho";
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
         btnAdicionarAoCarrinho.setAttribute("data-indice", index);
 
