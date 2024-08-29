@@ -93,3 +93,8 @@ function gerarDocumentoWord() {
   link.click();
   document.getElementById("pedido").style.display = "block";
 }
+
+function HideModal()
+{
+  document.getElementById("pedido").style.display = "none";
+}
