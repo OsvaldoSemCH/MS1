@@ -57,11 +57,14 @@ document.addEventListener("DOMContentLoaded", function () {
     "click",
     ".btn-adicionar-ao-carrinho",
     function () {
-      const indexDoProduto = $(this).data("indice");
-      const produtoSelecionado = produtos[indexDoProduto];
-      let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
-      carrinho.push(produtoSelecionado);
-      localStorage.setItem("carrinho", JSON.stringify(carrinho));
+      if(confirm("Quer mesmo adicionar ao carrinho?"))
+      {
+        const indexDoProduto = $(this).data("indice");
+        const produtoSelecionado = produtos[indexDoProduto];
+        let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+        carrinho.push(produtoSelecionado);
+        localStorage.setItem("carrinho", JSON.stringify(carrinho));
+      }
     }
   );
 });
