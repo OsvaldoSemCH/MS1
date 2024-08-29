@@ -42,6 +42,7 @@ body
     align-items: center;
     justify-content: space-around;
 }
+.btn-adicionar-ao-carrinho,
 .button
 {
     border: solid 1px #0080f0;
@@ -62,6 +63,7 @@ body
     border-radius: 7px;
     padding: 10px;
 }
+.btn-adicionar-ao-carrinho:hover,
 .button:hover
 {
     background-color: #00c0f0;
