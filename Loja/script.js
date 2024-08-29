@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const btnAdicionarAoCarrinho = document.createElement("a");
         btnAdicionarAoCarrinho.href = "#";
-        btnAdicionarAoCarrinho.className = "btn-adicionar-ao-carrinho";
+        btnAdicionarAoCarrinho.className = "button";
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
         btnAdicionarAoCarrinho.setAttribute("data-indice", index);
 

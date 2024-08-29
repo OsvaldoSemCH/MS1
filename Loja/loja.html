@@ -10,18 +10,22 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body style="font-family: Roboto, sans-serif; margin: 0; padding:0;">
-    <a href="../Carrinho/carrinho.html">Ir para carrinho</a>
-    <div>
-      <h5 id="perfil"></h5>
-      <div class="idPerfil">
-        Protocolo atual:
-        <p id="idPerfil"></p>
+    <header class="flex">
+      <a href="../Carrinho/carrinho.html" class="button">Ir para carrinho</a>
+      <div>
+        <h5 class="headerText" id="perfil"></h5>
+        <div class="idPerfil">
+          <p class="headerText">Protocolo atual:</p>
+          <p class="headerText" id="idPerfil"></p>
+        </div>
       </div>
+    </header>
+    <div class="Title">
+      <h1>Loja</h1>
+      <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
+      <br />
+      <h2>Produtos:</h2>
     </div>
-    <h1>Loja</h1>
-    <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
-    <br />
-    <h2>Produtos</h2>
     <br />
     <div>
       <div id="produtos-container"></div>
